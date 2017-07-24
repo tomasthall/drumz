@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: arial;
 }
 
 .pressed {
@@ -11,12 +12,9 @@ body {
 }
 
 .pad {
-  /*display: flex;*/
   width: 50px;
   height: 50px;
   border: 1px solid red;
-  /*background-color: grey;*/
-  /*position: absolute;*/
   text-align: center;
   transition: all 0.07s;
   float: left;
@@ -24,12 +22,11 @@ body {
 }
 
 .drumz {
+  margin: 0 auto;
   position: absolute;
-  left: 100px;
-  top: 25%;
+  top: 40%;
+  left: 43%;
   width: 200px;
-  height: 200px;
-  /*box-sizing: border-box;*/
 }
 
 .hihat {
@@ -75,16 +72,4 @@ body {
 .ltom {
   top: 200px;
   left: 200px;
-}
-
-.description {
-  padding: 5px;
-  position: absolute;
-  top: 25%;
-  right: 33%;
-  height: 400px;
-  width: 300px;
-  border: 1px solid red;
-  background-color: blue;
-  color: white;
 }

@@ -1,4 +1,3 @@
-//elo here what's goin on
 
 var instrumentsArray = [
   "hihat", "snare", "bass", "crash", "ride",
@@ -113,19 +112,10 @@ $(document).on("keydown", function(e){
   }
 });
 
-// $(".drumz").click(function(){
-//   var ad = $(this).children('.div');
-// )};
-
 $('.pad').on('transitionend MSTransitionEnd webkitTransitionEnd oTransitionEnd', function(){
   $('.pad').removeClass('pressed');
 })
 
-// $('.pad').click(function(){
-//   console.log("Works");
-//     $('audio').get(0).currentTime = 0;
-//     $('audio').get(0).play();
-//   });
 $('.hihat').click(function(){
   $('#1').get(0).currentTime = 0;
   $('#1').get(0).play();
